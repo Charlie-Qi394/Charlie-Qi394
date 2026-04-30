@@ -2,7 +2,7 @@
 
 Final-year Master of Computer Science student specialising in Artificial Intelligence, building a portfolio across machine learning, NLP, computer vision, Python software engineering and applied cybersecurity.
 
-My background combines applied AI coursework with 8+ years of full-time technical experience in regulated product development, quality systems, documentation, stakeholder coordination and data-informed process improvement.
+My background combines applied AI coursework with 8+ years of full-time technical experience in biotech/nutrition product R&D and manufacturing, including infant formula product development, quality systems, technical documentation, stakeholder coordination and data-informed process improvement.
 
 ## Current Focus
 
