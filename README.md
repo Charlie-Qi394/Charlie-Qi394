@@ -1,14 +1,18 @@
 # Charlie Qi
 
-Final-year Master of Computer Science student specialising in Artificial Intelligence, building a portfolio across RAG systems, machine learning, NLP, computer vision, Python software engineering, data systems and applied cybersecurity.
+Final-year Master of Computer Science student specialising in Artificial Intelligence, targeting graduate and junior software engineering, Python backend, data, automation and AI-adjacent roles.
 
-My background combines applied AI coursework with 10 years of full-time technical experience across biotech/nutrition product R&D and manufacturing, infant formula product development, quality systems, regulatory documentation, stakeholder coordination, and healthcare/public-health nutrition.
+My portfolio combines practical software, data and AI projects with 10 years of full-time experience across biotech/nutrition product R&D and manufacturing, infant formula product development, quality systems, regulatory documentation, stakeholder coordination, and healthcare/public-health nutrition.
+
+Portfolio website: [charlie-qi394.github.io/charlie-qi-portfolio](https://charlie-qi394.github.io/charlie-qi-portfolio/)
 
 ## Current Focus
 
+- Python software engineering and backend application development
 - Retrieval-Augmented Generation and document-grounded AI assistants
 - LLM application development with FastAPI, Streamlit and OpenAI APIs
 - PostgreSQL, pgvector, vector search and query history
+- Automation, business systems support and practical process improvement
 - Machine learning and model evaluation
 - Natural language processing and sequence generation
 - Computer vision, CNNs and semantic segmentation
@@ -18,13 +22,14 @@ My background combines applied AI coursework with 10 years of full-time technica
 ## Technical Skills
 
 - Languages: Python, SQL, JavaScript, HTML/CSS, VBA
+- Software / Backend: FastAPI, Streamlit, REST APIs, pytest, Docker Compose, Git/GitHub
 - LLM / RAG: OpenAI embeddings, vector search, grounded generation, citations, LangGraph, RAG evaluation
-- Backend and Data: FastAPI, Streamlit, PostgreSQL, pgvector, REST APIs, Docker Compose
+- Data: PostgreSQL, pgvector, pandas, NumPy, relational modelling, query history, data preprocessing
 - AI/ML: PyTorch, TensorFlow/Keras, scikit-learn, NumPy, pandas
 - NLP: LSTMs, Seq2Seq models, attention, beam search, BLEU, METEOR
 - Computer Vision: CNNs, image classification, semantic segmentation, Harris/Canny methods
 - Security: RSA, AES, X.509, CSRs, certificate chains, CRLs
-- Tools: Jupyter Notebook, Google Colab, Git/GitHub, pytest, Agile/Trello
+- Tools: Jupyter Notebook, Google Colab, Agile/Trello, technical documentation
 
 ## Featured Projects
 
@@ -47,15 +52,17 @@ Python implementation of BFS, DFS, Greedy Best-First Search and A* over CSV grap
 
 I am interested in graduate and junior roles across:
 
-- AI Engineering
-- RAG / LLM Engineering
-- Machine Learning Engineering
-- Data Science
-- Software Engineering with an AI/ML focus
+- Graduate Software Engineering
+- Junior Software Development
+- Python Backend Development
 - Data Engineering and Analytics
+- Automation / Business Systems Analysis
+- RAG / LLM Application Engineering
+- AI Engineering and Machine Learning Engineering where junior pathways are available
 - Cybersecurity roles involving cryptography or applied security
 
 ## Contact
 
 - Email: charlieqi2017@gmail.com
 - GitHub: [Charlie-Qi394](https://github.com/Charlie-Qi394)
+- Portfolio: [charlie-qi394.github.io/charlie-qi-portfolio](https://charlie-qi394.github.io/charlie-qi-portfolio/)
