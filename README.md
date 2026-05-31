@@ -11,6 +11,7 @@ Portfolio website: [charlie-qi394.github.io/charlie-qi-portfolio](https://charli
 - Python software engineering and backend application development
 - Retrieval-Augmented Generation and document-grounded AI assistants
 - LLM application development with FastAPI, Streamlit and OpenAI APIs
+- Multimodal AI workflows with image understanding, structured outputs and human confirmation
 - PostgreSQL, pgvector, vector search and query history
 - Automation, business systems support and practical process improvement
 - Machine learning and model evaluation
@@ -32,6 +33,9 @@ Portfolio website: [charlie-qi394.github.io/charlie-qi-portfolio](https://charli
 - Tools: Jupyter Notebook, Google Colab, Agile/Trello, technical documentation
 
 ## Featured Projects
+
+### AI-Assisted Food Date Recognition (Private Documentation Case Study)
+Designed and tested a mobile-friendly workflow that extracts Australian packaged-food date labels from photos, validates candidate dates in a Python backend, and requires user confirmation before saving. Prepared edge-case acceptance tests for unreadable labels, invalid dates and informational-only packaging dates. Detailed documentation is kept private while the collaborative prototype remains active.
 
 ### [AI Regulatory Knowledge Assistant](https://github.com/Charlie-Qi394/ai-regulatory-knowledge-assistant)
 Document-grounded RAG assistant using FastAPI, Streamlit, PostgreSQL/pgvector, OpenAI embeddings, LangGraph, Docker and evaluation workflows to answer questions over local regulatory documents with citations.
