@@ -35,7 +35,7 @@ Portfolio website: [charlie-qi394.github.io/charlie-qi-portfolio](https://charli
 ## Featured Projects
 
 ### [FridgePeace Shared-Household Food Management PWA](https://github.com/Charlie-Qi394/fridgepeace-portfolio)
-Public portfolio snapshot of a shared-household food management app built with React and FastAPI. Includes pantry workflows, expiry tracking, AI-assisted food scanning, FoodKeeper-based storage guidance, and portfolio-cleaned technical documentation. My contribution areas included AI scanning workflow support, testing structure, traceability, and project documentation cleanup.
+Public portfolio snapshot of a shared-household food management app built with React and FastAPI. Includes pantry workflows, expiry tracking, AI-assisted food scanning, FoodKeeper-based storage guidance, and portfolio-cleaned technical documentation. My contribution areas included user research support, product traceability through epics and user stories, acceptance criteria development, AI scanning workflow support, testing structure, and project documentation cleanup.
 
 ### AI-Assisted Food Date Recognition (Private Documentation Case Study)
 Designed and tested a mobile-friendly workflow that extracts Australian packaged-food date labels from photos, validates candidate dates in a Python backend, and requires user confirmation before saving. Prepared edge-case acceptance tests for unreadable labels, invalid dates, and informational-only packaging dates. Detailed governance and assessment documentation is kept private while selected implementation work is now represented through the public FridgePeace portfolio snapshot above.
