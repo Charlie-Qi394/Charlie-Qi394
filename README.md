@@ -1,75 +1,136 @@
-# Charlie Qi
+# Hi there, I'm Charlie Qi 👋
 
-Final-year Master of Computer Science student specialising in Artificial Intelligence, targeting graduate and junior software engineering, Python backend, data, automation and AI-adjacent roles.
+[![Portfolio](https://img.shields.io/badge/Portfolio-charlie--qi394.github.io-blue?style=flat-square&logo=googlechrome)](https://charlie-qi394.github.io/charlie-qi-portfolio/)
+[![GitHub](https://img.shields.io/badge/GitHub-Charlie--Qi394-black?style=flat-square&logo=github)](https://github.com/Charlie-Qi394)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://github.com/Charlie-Qi394)
+[![Email](https://img.shields.io/badge/Email-charlieqi2017%40gmail.com-D14836?style=flat-square&logo=gmail)](mailto:charlieqi2017@gmail.com)
 
-My portfolio combines practical software, data and AI projects with 10 years of full-time experience across biotech/nutrition product R&D and manufacturing, infant formula product development, quality systems, regulatory documentation, stakeholder coordination, and healthcare/public-health nutrition.
+---
 
-Portfolio website: [charlie-qi394.github.io/charlie-qi-portfolio](https://charlie-qi394.github.io/charlie-qi-portfolio/)
+### 🎓 About Me
 
-## Current Focus
+I am a **Master of Computer Science graduate (AI Specialisation)** from **Monash University** (*High Distinction Average*, **1st in Class** in *Machine Learning*, *Computer Vision*, and *Applied Practice 1*).
 
-- Python software engineering and backend application development
-- Retrieval-Augmented Generation and document-grounded AI assistants
-- LLM application development with FastAPI, Streamlit and OpenAI APIs
-- Multimodal AI workflows with image understanding, structured outputs and human confirmation
-- PostgreSQL, pgvector, vector search and query history
-- Automation, business systems support and practical process improvement
-- Machine learning and model evaluation
-- Natural language processing and sequence generation
-- Computer vision, CNNs and semantic segmentation
-- Python software engineering, testing and Docker workflows
-- Applied cryptography and PKI concepts
+I bridge modern **AI Engineering, Full-Stack Development (Python & TypeScript), and RAG/Agentic Workflows** with **10 years of full-time industry experience** in Biotech/Nutrition product R&D and Technical Management (Bellamy's Organic, Fonterra, Bega Cheese).
 
-## Technical Skills
+- 🚀 **Focus Areas**: Model Context Protocol (MCP), Agentic Workflows, RAG Pipelines, Full-Stack Web Apps, PostgreSQL / pgvector.
+- 💡 **Domain Advantage**: Expertise in complex regulatory systems, technical documentation, process automation, and cross-functional leadership.
 
-- Languages: Python, SQL, JavaScript, HTML/CSS, VBA
-- Software / Backend: FastAPI, Streamlit, REST APIs, pytest, Docker Compose, Git/GitHub
-- LLM / RAG: OpenAI embeddings, vector search, grounded generation, citations, LangGraph, RAG evaluation
-- Data: PostgreSQL, pgvector, pandas, NumPy, relational modelling, query history, data preprocessing
-- AI/ML: PyTorch, TensorFlow/Keras, scikit-learn, NumPy, pandas
-- NLP: LSTMs, Seq2Seq models, attention, beam search, BLEU, METEOR
-- Computer Vision: CNNs, image classification, semantic segmentation, Harris/Canny methods
-- Security: RSA, AES, X.509, CSRs, certificate chains, CRLs
-- Tools: Jupyter Notebook, Google Colab, Agile/Trello, technical documentation
+---
 
-## Featured Projects
+### 🛠️ Technical Skills
 
-### [FridgePeace Shared-Household Food Management PWA](https://github.com/Charlie-Qi394/fridgepeace-portfolio)
-Public portfolio snapshot of a shared-household food management app built with React and FastAPI. Includes pantry workflows, expiry tracking, AI-assisted food scanning, FoodKeeper-based storage guidance, and portfolio-cleaned technical documentation. My contribution areas included user research support, product traceability through epics and user stories, acceptance criteria development, AI scanning workflow support, testing structure, and project documentation cleanup.
+| Domain | Technologies & Frameworks |
+| :--- | :--- |
+| **Languages** | Python, TypeScript, JavaScript, SQL, HTML/CSS, VBA |
+| **Software / Full-Stack** | Node.js, Express, FastAPI, Streamlit, React, Prisma, REST APIs, Vitest / pytest |
+| **AI / MCP / RAG** | Model Context Protocol (MCP), LangGraph, Vector Search (pgvector), Grounded Generation, Citations, RAGAS Eval |
+| **ML / NLP / CV** | PyTorch, TensorFlow / Keras, scikit-learn, CNNs, LSTMs, Seq2Seq + Attention, Semantic Segmentation |
+| **Data & Databases** | PostgreSQL, pgvector, SQLAlchemy, Prisma ORM, SQLite, pandas, NumPy, Relational Modelling |
+| **DevOps & Security** | Docker, Docker Compose, GitHub Actions, PKI (X.509, RSA, AES), Zod Validation, RBAC, Audit Logging |
 
-### AI-Assisted Food Date Recognition (Private Documentation Case Study)
-Designed and tested a mobile-friendly workflow that extracts Australian packaged-food date labels from photos, validates candidate dates in a Python backend, and requires user confirmation before saving. Prepared edge-case acceptance tests for unreadable labels, invalid dates, and informational-only packaging dates. Detailed governance and assessment documentation is kept private while selected implementation work is now represented through the public FridgePeace portfolio snapshot above.
+---
 
-### [AI Regulatory Knowledge Assistant](https://github.com/Charlie-Qi394/ai-regulatory-knowledge-assistant)
-Document-grounded RAG assistant using FastAPI, Streamlit, PostgreSQL/pgvector, OpenAI embeddings, LangGraph, Docker and evaluation workflows to answer questions over local regulatory documents with citations.
+### 🌟 Featured Projects & System Architecture
 
-### [Python PKI Certificate System](https://github.com/Charlie-Qi394/pki-certificate-system-python)
-Educational PKI simulator implementing Root CA, Sub-CAs, encrypted certificate requests, certificate validation and revocation.
+#### 1. 🤖 [CareOps AI — MCP-Powered Aged Care Operations Assistant](https://github.com/Charlie-Qi394/careops-ai)
+> **Stack**: TypeScript, Node.js, Express, React, PostgreSQL, Prisma, MCP, Docker, GitHub Actions
 
-### [Seq2Seq Recipe Generation](https://github.com/Charlie-Qi394/seq2seq-recipe-generation-nlp)
-PyTorch NLP project comparing LSTM encoder-decoder models with and without attention for ingredient-to-recipe generation.
+A production-style AI operations platform designed for aged-care operational workflows. Features an isolated Model Context Protocol (MCP) server providing secure tools for client lookup, worker availability, compliance verification, address updates, and appointment scheduling with strict Role-Based Access Control (RBAC), Zod schema validation, confirmation-gated writes, and structured audit logs.
 
-### [Computer Vision Classification and Segmentation](https://github.com/Charlie-Qi394/computer-vision-cnn-segmentation)
-Computer-vision portfolio covering Harris/Canny image processing, CIFAR-100 CNN classification and segmentation model design.
+```mermaid
+flowchart TD
+    subgraph Client Layer
+        A[React / Tailwind Frontend]
+    end
 
-### [AI Graph Search Algorithms](https://github.com/Charlie-Qi394/ai-graph-search-algorithms)
-Python implementation of BFS, DFS, Greedy Best-First Search and A* over CSV graph inputs with CLI and tests.
+    subgraph Backend Layer
+        B[Express REST API / Controller]
+        C[MCP Client Manager]
+    end
 
-## Career Interests
+    subgraph MCP Server & Tools
+        D[MCP Server]
+        E[Client Search Tool]
+        F[Worker Availability Tool]
+        G[Compliance Check Tool]
+        H[Appointment Scheduler]
+    end
 
-I am interested in graduate and junior roles across:
+    subgraph Security & Storage
+        I[RBAC & Zod Validation]
+        J[Audit Logger]
+        K[(PostgreSQL + Prisma ORM)]
+    end
 
-- Graduate Software Engineering
-- Junior Software Development
-- Python Backend Development
-- Data Engineering and Analytics
-- Automation / Business Systems Analysis
-- RAG / LLM Application Engineering
-- AI Engineering and Machine Learning Engineering where junior pathways are available
-- Cybersecurity roles involving cryptography or applied security
+    A -->|REST / HTTP| B
+    B --> C
+    C -->|JSON-RPC / MCP Protocol| D
+    D --> I
+    I --> E & F & G & H
+    E & F & G & H -->|Queries / Writes| K
+    H -->|Log State Change| J
+```
 
-## Contact
+---
 
-- Email: charlieqi2017@gmail.com
-- GitHub: [Charlie-Qi394](https://github.com/Charlie-Qi394)
-- Portfolio: [charlie-qi394.github.io/charlie-qi-portfolio](https://charlie-qi394.github.io/charlie-qi-portfolio/)
+#### 2. 📚 [AI Regulatory Knowledge Assistant](https://github.com/Charlie-Qi394/ai-regulatory-knowledge-assistant)
+> **Stack**: Python, FastAPI, Streamlit, PostgreSQL / pgvector, OpenAI Embeddings, LangGraph, Docker Compose
+
+A document-grounded RAG assistant that ingests local regulatory documents (PDF/TXT/DOCX), generates vector embeddings, performs similarity search, and orchestrates query resolution using LangGraph with source citations, conversation history, and RAGAS evaluation workflows.
+
+```mermaid
+flowchart LR
+    subgraph Ingestion
+        A[PDF / DOCX / TXT] --> B[Chunking & Preprocessing]
+        B --> C[OpenAI Text Embeddings]
+    end
+
+    subgraph Vector Database
+        C --> D[(PostgreSQL + pgvector)]
+    end
+
+    subgraph RAG Agentic Pipeline
+        E[User Query via Streamlit / FastAPI] --> F[LangGraph Orchestrator]
+        F -->|Vector Similarity Search| D
+        D -->|Retrieved Context & Chunks| F
+        F -->|Grounded Prompt + Citations| G[OpenAI Chat Generation]
+        G --> H[Response with Source Citations]
+    end
+```
+
+---
+
+#### 3. 🥦 [FridgePeace — Shared-Household Food Management PWA](https://github.com/Charlie-Qi394/fridgepeace-portfolio)
+> **Stack**: React, Tailwind CSS, FastAPI, SQLAlchemy, SQLite, Gemini AI
+
+A progressive web app (PWA) that streamlines household food management, pantry workflows, expiry tracking, and AI-powered receipt/item scanning. Supported user research, sprint planning, user story traceability, and testing evidence structure.
+
+---
+
+#### 4. 🔐 [Python PKI Certificate System Simulator](https://github.com/Charlie-Qi394/pki-certificate-system-python)
+> **Stack**: Python, Cryptography Library, X.509
+
+An educational Public Key Infrastructure (PKI) simulator supporting Root CA, Sub-CAs, encrypted Certificate Signing Requests (CSRs), certificate chain validation, and Certificate Revocation Lists (CRLs) using RSA and AES-256-CBC.
+
+---
+
+#### 5. 🍳 [Seq2Seq Recipe Generation with Attention](https://github.com/Charlie-Qi394/seq2seq-recipe-generation-nlp)
+> **Stack**: PyTorch, LSTMs, NLP, Beam Search
+
+A sequence-to-sequence neural network in PyTorch that generates cooking recipes from lists of raw ingredients using masked attention mechanisms, packed sequences, and beam search decoding (evaluated via BLEU-4 and METEOR metrics).
+
+---
+
+#### 6. 👁️ [Computer Vision Classification & Segmentation](https://github.com/Charlie-Qi394/computer-vision-cnn-segmentation)
+> **Stack**: TensorFlow / Keras, OpenCV, CNNs, U-Net
+
+Computer vision portfolio exploring Harris corner and Canny edge detection, CIFAR-100 CNN image classification (74.18% test accuracy), and semantic segmentation architectures (U-Net, FCN, FPN).
+
+---
+
+### 📬 Let's Connect!
+
+- **Portfolio**: [charlie-qi394.github.io/charlie-qi-portfolio](https://charlie-qi394.github.io/charlie-qi-portfolio/)
+- **Email**: [charlieqi2017@gmail.com](mailto:charlieqi2017@gmail.com)
+- **GitHub**: [@Charlie-Qi394](https://github.com/Charlie-Qi394)
