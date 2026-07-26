@@ -2,7 +2,6 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-charlie--qi394.github.io-blue?style=flat-square&logo=googlechrome)](https://charlie-qi394.github.io/charlie-qi-portfolio/)
 [![GitHub](https://img.shields.io/badge/GitHub-Charlie--Qi394-black?style=flat-square&logo=github)](https://github.com/Charlie-Qi394)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://github.com/Charlie-Qi394)
 [![Email](https://img.shields.io/badge/Email-charlieqi2017%40gmail.com-D14836?style=flat-square&logo=gmail)](mailto:charlieqi2017@gmail.com)
 
 ---
