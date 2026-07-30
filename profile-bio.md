@@ -1,7 +1,7 @@
 # GitHub Profile Text
 
 ## Bio
-Final-year MCS student specialising in AI | Python, ML, NLP, CV, data and applied cybersecurity
+MCS (AI) graduate | Full-stack Python/TypeScript | Optimisation, AI extraction, MCP and RAG | 10 years in nutrition R&D
 
 ## Company
 Bellamy's Organic
@@ -10,10 +10,12 @@ Bellamy's Organic
 Melbourne, Australia
 
 ## Website
-https://github.com/Charlie-Qi394
+https://charlie-qi394.github.io/charlie-qi-portfolio/
 
 ## Pinned repositories
+- integrated-formulation-optimisation-tool
+- careops-ai
+- ai-regulatory-knowledge-assistant
+- charlie-qi-portfolio
 - pki-certificate-system-python
-- seq2seq-recipe-generation-nlp
-- computer-vision-cnn-segmentation
-- ai-graph-search-algorithms
+- fridgepeace-portfolio
