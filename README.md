@@ -6,6 +6,18 @@
 
 Master of Computer Science graduate specialising in AI, with 10 years of biotech and nutrition product R&D experience. I build full-stack software that turns complex, evidence-heavy workflows into practical and auditable decision tools.
 
+## Latest build: [Charlie Job Application OS](https://github.com/Charlie-Qi394/charlie-job-application-os)
+
+**React · TypeScript · Express · SQLite · Playwright**
+
+A local-first product that finds jobs from public employer feeds, ranks them into a swipeable recommendation deck and selects an existing résumé for each role. Apply Assist preserves the original PDF and fills supported application fields for human review; submission stays manual.
+
+- **Product engineering:** persistent pass/like decisions, editable profiles, résumé library and application tracking.
+- **Data and control:** source adapters, duplicate detection, posting history and immutable application snapshots.
+- **Validation:** 41 automated tests covering matching, discovery, provenance, request protection and browser form assistance.
+
+[Explore the code →](https://github.com/Charlie-Qi394/charlie-job-application-os) · [Visit my portfolio →](https://charlie-qi394.github.io/charlie-qi-portfolio/)
+
 ## ⭐ Flagship build: Integrated Nutrition Formulation Optimisation
 
 ### [View the source repository →](https://github.com/Charlie-Qi394/integrated-formulation-optimisation-tool)
@@ -74,6 +86,8 @@ Shared-household food-management PWA with pantry workflows, expiry tracking and 
 Educational PKI simulator covering certificate authorities, encrypted requests, chain validation and certificate revocation.
 
 ## Let's connect
+
+**Résumé available on request.**
 
 - **Portfolio:** [charlie-qi394.github.io/charlie-qi-portfolio](https://charlie-qi394.github.io/charlie-qi-portfolio/)
 - **Email:** [charlieqi2017@gmail.com](mailto:charlieqi2017@gmail.com)
