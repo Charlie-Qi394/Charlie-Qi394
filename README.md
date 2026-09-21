@@ -43,7 +43,7 @@ flowchart LR
 | **Languages** | Python, TypeScript, JavaScript, SQL, HTML/CSS, VBA |
 | **Software / Full-stack** | FastAPI, React, Node.js, Express, REST APIs, Celery, Redis, Prisma, pytest / Vitest |
 | **Data / Optimisation** | PostgreSQL, pgvector, SQLAlchemy, SciPy/HiGHS, pandas, NumPy, relational and mass-balance modelling |
-| **AI / Extraction / RAG** | Gemini structured extraction, MCP, LangGraph, vector search, grounded generation, citations |
+| **AI systems / RAG** | Local LLM inference, Ollama, Qwen/Gemma, TypeSafe Jev, Gemini structured extraction, MCP, LangGraph, vector search, grounded generation |
 | **ML / NLP / CV** | PyTorch, TensorFlow / Keras, scikit-learn, CNNs, LSTMs, Seq2Seq + Attention |
 | **DevOps / Security** | Docker Compose, Caddy, GitHub Actions, audit logging, PKI, X.509, RSA, AES |
 
@@ -60,6 +60,18 @@ A local-first product that finds jobs from public employer feeds, ranks them int
 [Explore the code →](https://github.com/Charlie-Qi394/charlie-job-application-os) · [Visit my portfolio →](https://charlie-qi394.github.io/charlie-qi-portfolio/)
 
 ## More featured projects
+
+### 🖥️ [Local LLM Coding Assistant](https://github.com/Charlie-Qi394/local-llm-coding-assistant)
+
+**Python · Ollama · Qwen3.5 9B · Gemma 4 12B · Q4_K_M · Continue**
+
+Local-first coding workflow for an Apple M4 Pro that runs quantised open-weight models through a loopback-only Ollama API. It includes bounded selected-file context, editor integration, reproducible setup and measured memory/throughput observations without claiming a controlled model benchmark.
+
+### 🧭 [JevRouter — Prompt Tier Extension](https://github.com/Charlie-Qi394/jevrouter-prompt-tier-extension)
+
+**JavaScript · Chrome Manifest V3 · TypeSafe Jev · Confidence gating · Node.js tests**
+
+User-controlled browser extension that recommends lightweight, standard, frontier or manual-review capability tiers for prompts on ChatGPT, Claude and Gemini. It combines optional Jev Choice decisions with a confidence gate and a clearly labelled deterministic fallback.
 
 ### 🤖 [CareOps AI — MCP-Powered Aged Care Operations Assistant](https://github.com/Charlie-Qi394/careops-ai)
 
