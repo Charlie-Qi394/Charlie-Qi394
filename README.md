@@ -47,7 +47,21 @@ flowchart LR
 | **ML / NLP / CV** | PyTorch, TensorFlow / Keras, scikit-learn, CNNs, LSTMs, Seq2Seq + Attention |
 | **DevOps / Security** | Docker Compose, Caddy, GitHub Actions, audit logging, PKI, X.509, RSA, AES |
 
-## Latest build: [Charlie Job Application OS](https://github.com/Charlie-Qi394/charlie-job-application-os)
+## Latest build: [Formulation Cost Optimisation & Supply Chain Planner](https://github.com/Charlie-Qi394/charlie-qi-portfolio/tree/main/public/projects/formulation-supply-planner)
+
+**Excel · VBA · Solver · Linear programming · Inventory-constrained planning**
+
+A practical Supply Chain planning tool for finding feasible or least-cost formulations within available ingredient stock and nutritional constraints. Enter planned production in MT, available D90/WPC80 and ingredient prices; see original versus optimised ingredient demand and the cost impact.
+
+- **Independent workflows:** supply availability planning and cost minimisation have separate inputs; stock limits are binding in both.
+- **Decision-ready outputs:** ingredient quantities and differences, savings per MT and total savings for the planned volume.
+- **Scenario comparison:** five saved snapshots, latest shown automatically, with compact selectors for older scenarios.
+- **Public demo:** fictional formulations, targets, prices and inventory; exercised in native Excel for solver constraints and scenario retention.
+- **Integration boundary:** manually entered availability today. Live ERP/WMS inventory and receipt/issue/reservation-driven replanning are a future extension, not implemented features.
+
+[Explore the project →](https://charlie-qi394.github.io/charlie-qi-portfolio/#project/formulation-supply-planner) · [Download the Excel demo →](https://charlie-qi394.github.io/charlie-qi-portfolio/projects/formulation-supply-planner/Formulation-Supply-Planner-Demo.xlsm) · [Inspect VBA and documentation →](https://github.com/Charlie-Qi394/charlie-qi-portfolio/tree/main/public/projects/formulation-supply-planner)
+
+## Recent build: [Charlie Job Application OS](https://github.com/Charlie-Qi394/charlie-job-application-os)
 
 **React · TypeScript · Express · SQLite · Playwright**
 
