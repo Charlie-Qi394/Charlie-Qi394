@@ -47,19 +47,17 @@ flowchart LR
 | **ML / NLP / CV** | PyTorch, TensorFlow / Keras, scikit-learn, CNNs, LSTMs, Seq2Seq + Attention |
 | **DevOps / Security** | Docker Compose, Caddy, GitHub Actions, audit logging, PKI, X.509, RSA, AES |
 
-## Latest build: [Formulation Cost Optimisation & Supply Chain Planner](https://github.com/Charlie-Qi394/charlie-qi-portfolio/tree/main/public/projects/formulation-supply-planner)
+## Latest build: [Formulation Cost Optimisation & Supply Chain Planner](https://charlie-qi394.github.io/charlie-qi-portfolio/#project/formulation-supply-planner)
 
-**Excel · VBA · Solver · Linear programming · Inventory-constrained planning**
+**Excel · VBA · Inventory-constrained planning**
 
-A practical Supply Chain planning tool for finding feasible or least-cost formulations within available ingredient stock and nutritional constraints. Enter planned production in MT, available D90/WPC80 and ingredient prices; see original versus optimised ingredient demand and the cost impact.
+A private Supply Chain tool for feasible formulation planning and cost optimisation, with independent stock inputs, ingredient-demand forecasts, cost-impact reporting and compact scenario comparison.
 
-- **Independent workflows:** supply availability planning and cost minimisation have separate inputs; stock limits are binding in both.
-- **Decision-ready outputs:** ingredient quantities and differences, savings per MT and total savings for the planned volume.
-- **Scenario comparison:** five saved snapshots, latest shown automatically, with compact selectors for older scenarios.
-- **Public demo:** fictional formulations, targets, prices and inventory; exercised in native Excel for solver constraints and scenario retention.
-- **Integration boundary:** manually entered availability today. Live ERP/WMS inventory and receipt/issue/reservation-driven replanning are a future extension, not implemented features.
+**Confidentiality:** the workbook, source code and formulation details are not distributed. The public showcase uses generic Material A/B/C labels and withholds ingredient identities, quantities, compositions, nutritional limits, stock, prices and calculated results.
 
-[Explore the project →](https://charlie-qi394.github.io/charlie-qi-portfolio/#project/formulation-supply-planner) · [Download the Excel demo →](https://charlie-qi394.github.io/charlie-qi-portfolio/projects/formulation-supply-planner/Formulation-Supply-Planner-Demo.xlsm) · [Inspect VBA and documentation →](https://github.com/Charlie-Qi394/charlie-qi-portfolio/tree/main/public/projects/formulation-supply-planner)
+Inventory is manually entered today. Live inventory feeds and stock-movement-driven replanning remain a future extension.
+
+[View the anonymised workflow showcase →](https://charlie-qi394.github.io/charlie-qi-portfolio/#project/formulation-supply-planner)
 
 ## Recent build: [Charlie Job Application OS](https://github.com/Charlie-Qi394/charlie-job-application-os)
 
